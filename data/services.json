@@ -1,0 +1,98 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom fitting for insulated winter coats tailored to your dog's size and breed. We ensure a comfortable fit that provides warmth and mobility during cold weather walks, using high-quality materials for maximum comfort.",
+    "image": "https://i.ibb.co.com/NdGtnmD6/dog-coat.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Specialized winter grooming using moisturizing shampoos and protective paw balms. Our treatment helps prevent dry skin and cracked paws while keeping your pet's coat healthy in cold conditions.",
+    "image": "https://i.ibb.co.com/hJ0Sytm5/grooming.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Heated Bed Installation",
+    "providerName": "WarmNest Solutions",
+    "providerEmail": "support@warmnest.com",
+    "price": 45,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Professional installation of safe, energy-efficient heated beds for small to medium pets. We ensure proper setup and provide guidance on optimal usage to keep your pet warm and comfortable all winter.",
+    "image": "https://i.ibb.co.com/mCQgnS5T/heated-bed.jpg",
+    "category": "Accessories"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Heated Bed Installation",
+    "providerName": "WarmNest Solutions",
+    "providerEmail": "support@warmnest.com",
+    "price": 45,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Professional installation of safe, energy-efficient heated beds for small to medium pets. We ensure proper setup and provide guidance on optimal usage to keep your pet warm and comfortable all winter.",
+    "image": "https://i.ibb.co.com/mCQgnS5T/heated-bed.jpg",
+    "category": "Accessories"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Cold-Weather Nutrition Plan",
+    "providerName": "VetCare Nutrition",
+    "providerEmail": "nutrition@vetcare.com",
+    "price": 35,
+    "rating": 4.85,
+    "slotsAvailable": 6,
+    "description": "Personalized diet plans designed to maintain your pet's energy and body heat during winter. Our nutrition-focused approach includes high-protein meals and essential supplements for seasonal wellness.",
+    "image": "https://i.ibb.co.com/93rccL41/nutrition.jpg",
+    "category": "Nutrition"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Paw Balm & Ice-Protection Treatment",
+    "providerName": "Paw Protectors",
+    "providerEmail": "contact@pawprotect.com",
+    "price": 20,
+    "rating": 4.6,
+    "slotsAvailable": 8,
+    "description": "Protective paw balm application that creates a barrier against ice and de-icing chemicals. We provide treatment to prevent cracking and practical advice for winter paw care during daily walks.",
+    "image": "https://i.ibb.co.com/B2mYNddh/paw-treatment.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 7,
+    "serviceName": "Paw Balm & Ice-Protection Treatment",
+    "providerName": "Paw Protectors",
+    "providerEmail": "contact@pawprotect.com",
+    "price": 20,
+    "rating": 4.6,
+    "slotsAvailable": 8,
+    "description": "Protective paw balm application that creates a barrier against ice and de-icing chemicals. We provide treatment to prevent cracking and practical advice for winter paw care during daily walks.",
+    "image": "https://i.ibb.co.com/B2mYNddh/paw-treatment.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 8,
+    "serviceName": "Emergency Cold Care Consult",
+    "providerName": "QuickVet Online",
+    "providerEmail": "help@quickvet.com",
+    "price": 40,
+    "rating": 4.95,
+    "slotsAvailable": 2,
+    "description": "Immediate video consultation for cold-related pet emergencies like hypothermia or frostbite. Our veters provide first-aid guidance and assess if in-person care is needed for your pet's safety.",
+    "image": "https://i.ibb.co.com/391LCg7J/cold-care.jpg",
+    "category": "Consultation"
+  }
+]
