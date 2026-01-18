@@ -29,9 +29,40 @@ app.get("/services/:id", async (req, res) => {
   res.send(requested);
 });
 
+app.get("/dashboard", (req, res) => {
+  const services = getServices();
+
+  const totalServices = services.length;
+
+  const totalSlots = services.reduce(
+    (sum, service) => sum + service.slotsAvailable,
+    0
+  );
+
+  const averagePrice =
+    services.reduce((sum, service) => sum + service.price, 0) /
+    totalServices;
+
+  const categories = {};
+  services.forEach((service) => {
+    categories[service.category] =
+      (categories[service.category] || 0) + 1;
+  });
+
+  res.json({
+    totalServices,
+    totalSlots,
+    averagePrice: Number(averagePrice.toFixed(2)),
+    categories,
+  });
+});
+
 app.get("/", (req, res) => {
   res.send("server is running fine");
 });
+
+
+
 
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
